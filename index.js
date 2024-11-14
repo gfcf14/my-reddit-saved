@@ -4,7 +4,7 @@ const TOTAL_FILES = 3;
 $(() => {
   const favTable = document.querySelector('#fav-table');
 
-  for (let i = 1, i <= TOTAL_FILES; i++) {
+  for (let i = 1; i <= TOTAL_FILES; i++) {
     $.getJSON(`./saved-${i}.json`, (data) => {
       data.forEach(favObj => {
         const { icon, title, content, footer } = favObj;
