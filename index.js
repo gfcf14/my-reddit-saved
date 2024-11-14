@@ -1,5 +1,5 @@
 // increase this amount the more files there are
-const TOTAL_FILES = 2;
+const TOTAL_FILES = 3;
 
 $(() => {
   const favTable = document.querySelector('#fav-table');
