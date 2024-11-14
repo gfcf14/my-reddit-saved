@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  width: 140px;
+  height: 140px;
+}
+
+td {
+  padding-bottom: 20px;
+}
+
+#body-title {
+  background: #cee3f8;
+  display: block;
+  font-size: 50px;
+  height: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 35px;
+  color: #0000ff !important; 
+}
+
+.comments {
+  color: #888888 !important;
+  font-size: 20px;
+}
+
+.topped {
+  vertical-align: top;
+}
