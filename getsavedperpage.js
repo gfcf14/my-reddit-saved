@@ -30,7 +30,7 @@ $('[id^=content_],[id^=thing]').each(function() {
 	if (imgsrc === undefined) $(this).find('div.entry.unvoted ul li.comment-unsave-button.save-button a').click()
 	else $(this).find('div.entry.unvoted div ul li.link-unsave-button.save-button a').click();
 	
-	if (imgsrc === undefined) imgsrc = 'http://incredibleplr.com/wp-content/uploads/2016/09/icon-link.png';
+	if (imgsrc === undefined) imgsrc = 'https://www.greendreampg.net/images/reddit-generic.png';
 	else imgsrc = 'https:' + imgsrc;
 	
   // console.log("<tr>\n\t<td class=\"topped\">\n\t\t<a href=\"" + ref + "\"><img src=\"" + imgsrc + "\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"" + ref + "\"><div class=\"title\">" + title + "</div></a>\n\t\t<br>\n\t\t" + text + "<a href=\"" + cref + "\"><div class=\"comments\">" + co + "</div></a>\n\t</td>\n</tr>");
