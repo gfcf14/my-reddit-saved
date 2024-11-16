@@ -11,7 +11,7 @@
 $('[id^=content_],[id^=thing]').each(function() {
   var ref = $(this).find('a').attr('href');
   if (ref === undefined) ref = $(this).data('permalink');
-  if (!ref.includes('https://old.reddit.com/')) ref = 'https://old.reddit.com/' + ref;
+  if (!ref.includes('https://')) ref = 'https://old.reddit.com/' + ref;
 	var imgsrc = $(this).find(' a img').attr('src');
   var title = (imgsrc === undefined) ? $(this).find(' p a.title').html() : $(this).find(' div.entry.unvoted div p a').html();
   if (title === undefined) title = $(this).find('p a.title').html();
